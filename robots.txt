@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bimasumbawa.com/sitemap.xml

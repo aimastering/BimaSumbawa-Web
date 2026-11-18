@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- ===== SEO: ganti bimasumbawa.com dengan domain Anda setelah membeli domain ===== -->
+<title>Wisata Bima &amp; Sumbawa, Transportasi &amp; Oleh-Oleh | Bima Sumbawa</title>
+<meta name="description" content="Panduan wisata Bima dan Pulau Sumbawa: destinasi, ferry, bandara, rental mobil, oleh-oleh khas Bima, tenun, kopi Sumbawa, dan UMKM lokal NTB.">
+<link rel="canonical" href="https://bimasumbawa.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Wisata Bima &amp; Sumbawa, Transportasi &amp; Oleh-Oleh | Bima Sumbawa">
+<meta property="og:description" content="Panduan wisata Bima dan Pulau Sumbawa: destinasi, ferry, bandara, rental mobil, oleh-oleh khas Bima, tenun, kopi Sumbawa, dan UMKM lokal NTB.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=75">
+<meta property="og:url" content="https://bimasumbawa.com/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230E5A64'/%3E%3Cpath d='M15 62q17-22 35 0t35 0v20H15z' fill='%23C8902E'/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/figtree-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/young-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<!-- CSS Tailwind hasil kompilasi (ringan). Jangan diedit manual. -->
+<link rel="stylesheet" href="assets/css/style.css">
+<!-- Data terstruktur untuk Google (JSON-LD) -->
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://bimasumbawa.com/#website", "name": "Bima Sumbawa", "url": "https://bimasumbawa.com/", "inLanguage": ["id", "en"], "description": "Direktori wisata, transportasi, dan UMKM Kota Bima dan Pulau Sumbawa.", "publisher": {"@id": "https://bimasumbawa.com/#org"}}, {"@type": "Organization", "@id": "https://bimasumbawa.com/#org", "name": "Bima Sumbawa", "url": "https://bimasumbawa.com/", "email": "halo@bimasumbawa.com", "areaServed": "Bima dan Pulau Sumbawa, Nusa Tenggara Barat", "contactPoint": {"@type": "ContactPoint", "contactType": "customer support", "telephone": "+628980280009", "email": "halo@bimasumbawa.com", "availableLanguage": ["Indonesian", "English"]}}]}
+</script>
+</head>
+<body class="bg-white text-tinta font-sans antialiased">
+
+<!-- ===================== NAVBAR ===================== -->
+<!-- Salin blok NAVBAR ini ke semua halaman. Teks: data-en = Inggris, isi tag = Indonesia -->
+<header class="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-lautmuda">
+  <nav class="max-w-6xl mx-auto flex items-center justify-between px-4 py-3" aria-label="Menu utama">
+    <a href="index.html" class="font-serif text-xl font-bold text-laut">Bima Sumbawa</a>
+    <ul class="hidden md:flex items-center gap-6 text-sm font-medium">
+      <li><a class="text-laut" href="index.html" data-en="Home">Beranda</a></li>
+      <li><a class="hover:text-laut" href="wisata.html" data-en="Attractions">Wisata</a></li>
+      <li><a class="hover:text-laut" href="transportasi.html" data-en="Transport">Transportasi</a></li>
+      <li><a class="hover:text-laut" href="umkm.html" data-en="Souvenirs &amp; Local Business">Oleh-Oleh &amp; UMKM</a></li>
+      <li><a class="rounded-full bg-tanah text-white px-4 py-2 hover:opacity-90" href="kontak.html" data-en="List Your Business">Daftarkan Usaha</a></li>
+    </ul>
+    <div class="flex items-center gap-1.5 sm:gap-3">
+      <!-- Tombol cari (kaca pembesar): dibuka oleh assets/js/pencarian.js -->
+      <button type="button" id="cari-btn" class="p-2 text-tinta hover:text-laut" aria-label="Cari / Search" aria-haspopup="dialog" aria-expanded="false"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></button>
+      <!-- Tombol bahasa -->
+      <div class="flex text-sm font-semibold border border-laut rounded-full overflow-hidden" role="group" aria-label="Bahasa">
+        <button type="button" data-lang="id" class="px-3 py-1">ID</button>
+        <button type="button" data-lang="en" class="px-3 py-1">EN</button>
+      </div>
+      <button id="menu-btn" type="button" class="md:hidden p-2" aria-label="Buka menu" aria-expanded="false">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </nav>
+  <!-- Menu HP -->
+  <ul id="menu-hp" class="hidden md:hidden px-4 pb-4 space-y-1 text-base font-medium">
+    <li><a class="block py-2" href="index.html" data-en="Home">Beranda</a></li>
+    <li><a class="block py-2" href="wisata.html" data-en="Attractions">Wisata</a></li>
+    <li><a class="block py-2" href="transportasi.html" data-en="Transport">Transportasi</a></li>
+    <li><a class="block py-2" href="umkm.html" data-en="Souvenirs &amp; Local Business">Oleh-Oleh &amp; UMKM</a></li>
+    <li><a class="block py-2 text-tanah font-semibold" href="kontak.html" data-en="List Your Business">Daftarkan Usaha</a></li>
+  </ul>
+</header>
+
+<main>
+<!-- ===================== HERO ===================== -->
+<section class="relative bg-laut text-white">
+  <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=70" alt="Pantai berpasir putih dengan air laut jernih" width="1400" height="900" fetchpriority="high"
+       class="absolute inset-0 w-full h-full object-cover opacity-40" onerror="this.remove()">
+  <div class="relative max-w-6xl mx-auto px-4 py-20 md:py-28">
+    <h1 class="font-serif text-4xl md:text-5xl leading-tight max-w-3xl" data-en="Attractions, Transport &amp; Souvenirs in Bima and Sumbawa">Wisata, Transportasi &amp; Oleh-Oleh di Bima dan Sumbawa</h1>
+    <p class="mt-5 text-lg max-w-2xl text-white/90" data-en="Explore Bima and Sumbawa, from sea to summit. Practical guides to getting here, places worth visiting, and local businesses worth supporting, for travelers and residents alike.">Jelajahi Bima dan Sumbawa, dari laut hingga puncak gunung. Panduan praktis menuju ke sini, tempat yang layak dikunjungi, dan usaha lokal yang layak didukung, untuk wisatawan maupun warga.</p>
+    <div class="mt-8 flex flex-wrap gap-3">
+      <a href="wisata.html" class="rounded-full bg-emas text-tinta font-semibold px-6 py-3 hover:opacity-90" data-en="Explore destinations">Lihat destinasi</a>
+      <a href="umkm.html" class="rounded-full border border-white px-6 py-3 font-semibold hover:bg-white/10" data-en="Shop local">Belanja produk lokal</a>
+    </div>
+  </div>
+  <div class="tenun" aria-hidden="true"></div>
+</section>
+
+<!-- ===================== PENGANTAR (teks berkata kunci untuk pembaca dan mesin pencari) ===================== -->
+<section class="max-w-6xl mx-auto px-4 pt-14" aria-labelledby="pengantar">
+  <h2 id="pengantar" class="font-serif text-3xl text-laut" data-en="Your guide to Bima and Sumbawa Island">Panduan wisata Bima dan Pulau Sumbawa</h2>
+  <p class="mt-4 max-w-3xl leading-relaxed" data-en="Bima Sumbawa is a local guide to Bima City and Sumbawa Island in West Nusa Tenggara. The island is divided into five areas: Bima City, Bima Regency, Dompu, Sumbawa, and West Sumbawa, with sultanate heritage, beaches, small islands, and Mount Tambora. Find &lt;a class=&quot;underline&quot; href=&quot;wisata.html&quot;&gt;attractions in Bima and Sumbawa&lt;/a&gt;, learn &lt;a class=&quot;underline&quot; href=&quot;transportasi.html&quot;&gt;how to get there by air, ferry, and bus&lt;/a&gt;, and take home &lt;a class=&quot;underline&quot; href=&quot;umkm.html&quot;&gt;Bima souvenirs&lt;/a&gt; such as woven cloth, Sumbawa coffee, and cashew snacks from local businesses.">Bima Sumbawa adalah panduan lokal untuk menjelajahi Kota Bima dan Pulau Sumbawa di Nusa Tenggara Barat. Pulau ini terbagi atas lima wilayah, yaitu Kota Bima, Kabupaten Bima, Dompu, Sumbawa, dan Sumbawa Barat, dengan peninggalan kesultanan, pantai, pulau kecil, dan Gunung Tambora. Temukan <a class="underline" href="wisata.html">tempat wisata di Bima dan Sumbawa</a>, cari tahu <a class="underline" href="transportasi.html">cara menuju ke sana lewat bandara, ferry, dan bus</a>, lalu bawa pulang <a class="underline" href="umkm.html">oleh-oleh khas Bima</a> seperti tenun, kopi Sumbawa, dan olahan kacang mete dari UMKM lokal.</p>
+</section>
+
+<!-- ===================== AKSES CEPAT ===================== -->
+<section class="max-w-6xl mx-auto px-4 py-14" aria-labelledby="akses">
+  <h2 id="akses" class="font-serif text-3xl font-bold text-laut" data-en="Quick Access for Travelers">Akses Cepat Wisatawan</h2>
+  <div class="mt-8 grid gap-5 md:grid-cols-3">
+    <article class="rounded-xl bg-lautmuda p-6">
+      <h3 class="font-serif text-xl font-semibold" data-en="By Air: Sultan Muhammad Salahuddin Airport">Jalur Udara: Bandara Sultan Muhammad Salahuddin</h3>
+      <p class="mt-2 text-sm leading-relaxed" data-en="Bima's airport receives flights from Lombok and other hubs. Taxis and rental cars wait outside; confirm schedules with the airline.">Bandara Bima menerima penerbangan dari Lombok dan kota lain. Taksi dan rental mobil tersedia di luar; cek jadwal ke maskapai.</p>
+      <a href="transportasi.html#udara" class="mt-3 inline-block text-sm font-semibold text-laut underline" data-en="Flight and airport info">Info penerbangan dan bandara</a>
+    </article>
+    <article class="rounded-xl bg-lautmuda p-6">
+      <h3 class="font-serif text-xl font-semibold" data-en="By Sea: Ferries">Jalur Laut: Kapal Ferry</h3>
+      <p class="mt-2 text-sm leading-relaxed" data-en="Ferries connect Sumbawa with Lombok, Flores, and beyond through ports such as Poto Tano, Sape, and Bima. Check current schedules.">Kapal ferry menghubungkan Sumbawa dengan Lombok, Flores, dan sekitarnya lewat pelabuhan seperti Poto Tano, Sape, dan Bima. Cek jadwal terbaru.</p>
+      <a href="transportasi.html#laut" class="mt-3 inline-block text-sm font-semibold text-laut underline" data-en="Ferry routes and ports">Rute dan pelabuhan ferry</a>
+    </article>
+    <article class="rounded-xl bg-lautmuda p-6">
+      <h3 class="font-serif text-xl font-semibold" data-en="Overland Across Sumbawa">Transportasi Darat Lintas Sumbawa</h3>
+      <p class="mt-2 text-sm leading-relaxed" data-en="Buses, travel shuttles, and rental cars link Bima with Dompu, Sumbawa Besar, and Lombok ports along the Trans-Sumbawa road.">Bus, travel, dan rental mobil menghubungkan Bima dengan Dompu, Sumbawa Besar, dan pelabuhan arah Lombok lewat jalan lintas Sumbawa.</p>
+      <a href="transportasi.html#darat" class="mt-3 inline-block text-sm font-semibold text-laut underline" data-en="Buses and rentals">Bus dan rental</a>
+    </article>
+  </div>
+</section>
+
+<!-- ===================== DESTINASI ===================== -->
+<!-- Kartu di bagian ini DIAMBIL OTOMATIS dari wisata.html (kartu yang diberi kata data-unggulan).
+     Jadi tidak perlu diedit di sini. Lihat petunjuk di wisata.html. -->
+<section class="bg-lautmuda/50 py-14" aria-labelledby="destinasi">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="flex items-end justify-between gap-4">
+      <h2 id="destinasi" class="font-serif text-3xl text-laut" data-en="Featured Destinations in Bima &amp; Sumbawa">Destinasi Unggulan Bima &amp; Sumbawa</h2>
+      <a href="wisata.html" class="shrink-0 inline-flex items-center gap-1 text-sm font-semibold text-tanah hover:underline"><span data-en="See more">Selengkapnya</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div id="wadah-wisata" class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <!--SALINAN-WISATA--><!-- Salinan otomatis supaya gambar selalu tampil. Saat situs tayang, bagian ini DIGANTI oleh JavaScript dengan kartu terbaru dari halaman sumber. -->
+<article class="scroll-mt-24 rounded-2xl bg-white border border-lautmuda overflow-hidden shadow-sm hover:shadow-lg transition flex flex-col" data-region="kota-bima" data-unggulan="" id="museum-asi-mbojo">
+<figure class="relative">
+<img alt="Foto Museum Asi Mbojo" class="h-56 w-full object-cover bg-lautmuda" height="560" loading="lazy" onerror="this.style.visibility='hidden'" src="https://commons.wikimedia.org/wiki/Special:FilePath/Museum_Asi_Mbojo_01.jpg?width=800" width="800"/>
+<div class="absolute inset-0 bg-gradient-to-t from-tinta/85 via-tinta/10 to-transparent pointer-events-none"></div>
+<span class="absolute top-3 left-3 rounded-full bg-emas text-tinta text-xs font-semibold px-3 py-1" data-en="Bima City">Kota Bima</span>
+<h3 class="absolute bottom-3 left-4 right-4 font-serif text-2xl text-white">Museum Asi Mbojo</h3>
+</figure>
+<p class="px-5 pt-3 text-[11px] text-tinta/70"><span data-en="Photo:">Foto:</span> Pemerintah Kota Bima / <a class="underline" href="https://commons.wikimedia.org/wiki/File:Museum_Asi_Mbojo_01.jpg" rel="noopener" target="_blank">Wikimedia Commons</a> / <span data-en="Public domain">Domain publik</span></p>
+<div class="p-5 flex flex-col grow">
+<p class="text-xs font-semibold text-tanah">Jl. Sultan Ibrahim No. 2, Kota Bima</p>
+<p class="mt-2 text-sm leading-relaxed" data-en="The former palace of the Bima Sultanate, now a museum of Mbojo history and culture with royal heirlooms on display.">Bekas Istana Kesultanan Bima yang kini menjadi museum sejarah dan budaya Mbojo, lengkap dengan koleksi peninggalan kesultanan.</p>
+
+
+<div class="grow"></div>
+<a class="mt-5 rounded-full bg-laut text-white text-sm font-semibold text-center px-5 py-2.5 hover:opacity-90" data-en="Open in Google Maps" href="https://www.google.com/maps/search/?api=1&amp;query=Museum+Asi+Mbojo+Bima" rel="noopener" target="_blank">Buka di Google Maps</a>
+</div>
+</article>
+
+<article class="scroll-mt-24 rounded-2xl bg-white border border-lautmuda overflow-hidden shadow-sm hover:shadow-lg transition flex flex-col" data-region="dompu kab-bima" data-unggulan="" id="gunung-tambora">
+<figure class="relative">
+<img alt="Foto Gunung Tambora" class="h-56 w-full object-cover bg-lautmuda" height="560" loading="lazy" onerror="this.style.visibility='hidden'" src="https://commons.wikimedia.org/wiki/Special:FilePath/Calderaboden_des_Tambora.jpg?width=800" width="800"/>
+<div class="absolute inset-0 bg-gradient-to-t from-tinta/85 via-tinta/10 to-transparent pointer-events-none"></div>
+<span class="absolute top-3 left-3 rounded-full bg-emas text-tinta text-xs font-semibold px-3 py-1" data-en="Dompu &amp; Bima">Dompu &amp; Bima</span>
+<h3 class="absolute bottom-3 left-4 right-4 font-serif text-2xl text-white">Gunung Tambora</h3>
+</figure>
+<p class="px-5 pt-3 text-[11px] text-tinta/70"><span data-en="Photo:">Foto:</span> Georesearch Volcanedo Germany / <a class="underline" href="https://commons.wikimedia.org/wiki/File:Calderaboden_des_Tambora.jpg" rel="noopener" target="_blank">Wikimedia Commons</a> / <span data-en="CC BY-SA 3.0"><a class="underline" href="https://creativecommons.org/licenses/by-sa/3.0/" rel="noopener" target="_blank">CC BY-SA 3.0</a></span></p>
+<div class="p-5 flex flex-col grow">
+<p class="text-xs font-semibold text-tanah">Kab. Dompu dan Kab. Bima</p>
+<p class="mt-2 text-sm leading-relaxed" data-en="A volcanic landscape and caldera from the great 1815 eruption, with several trekking routes including Pancasila and Doro Ncanga in Dompu.">Bentang alam vulkanik dan kaldera sisa letusan besar 1815. Ada beberapa jalur pendakian, termasuk Pancasila dan Doro Ncanga di Dompu.</p>
+
+<a class="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-tanah hover:underline" href="gunung-tambora.html"><span data-en="Read more">Baca selengkapnya</span> <svg aria-hidden="true" fill="none" height="16" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24" width="16"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+
+<div class="grow"></div>
+<a class="mt-5 rounded-full bg-laut text-white text-sm font-semibold text-center px-5 py-2.5 hover:opacity-90" data-en="Open in Google Maps" href="https://www.google.com/maps/search/?api=1&amp;query=Gunung+Tambora" rel="noopener" target="_blank">Buka di Google Maps</a>
+</div>
+</article>
+
+<article class="scroll-mt-24 rounded-2xl bg-white border border-lautmuda overflow-hidden shadow-sm hover:shadow-lg transition flex flex-col" data-region="dompu" data-unggulan="" id="pulau-dan-danau-satonda">
+<figure class="relative">
+<img alt="Foto Pulau dan Danau Satonda" class="h-56 w-full object-cover bg-lautmuda" height="560" loading="lazy" onerror="this.style.visibility='hidden'" src="https://commons.wikimedia.org/wiki/Special:FilePath/TWA_Danau_Satonda.jpg?width=800" width="800"/>
+<div class="absolute inset-0 bg-gradient-to-t from-tinta/85 via-tinta/10 to-transparent pointer-events-none"></div>
+<span class="absolute top-3 left-3 rounded-full bg-emas text-tinta text-xs font-semibold px-3 py-1" data-en="Dompu Regency">Kabupaten Dompu</span>
+<h3 class="absolute bottom-3 left-4 right-4 font-serif text-2xl text-white">Pulau dan Danau Satonda</h3>
+</figure>
+<p class="px-5 pt-3 text-[11px] text-tinta/70"><span data-en="Photo:">Foto:</span> Lil.ulil / <a class="underline" href="https://commons.wikimedia.org/wiki/File:TWA_Danau_Satonda.jpg" rel="noopener" target="_blank">Wikimedia Commons</a> / <span data-en="CC BY-SA 4.0"><a class="underline" href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener" target="_blank">CC BY-SA 4.0</a></span></p>
+<div class="p-5 flex flex-col grow">
+<p class="text-xs font-semibold text-tanah">Desa Nangamiro, Kec. Pekat, Dompu</p>
+<p class="mt-2 text-sm leading-relaxed" data-en="A saltwater lake inside a volcanic island, ideal for nature lovers and photography.">Danau air asin di tengah pulau vulkanik, cocok untuk menikmati alam dan fotografi.</p>
+
+
+<div class="grow"></div>
+<a class="mt-5 rounded-full bg-laut text-white text-sm font-semibold text-center px-5 py-2.5 hover:opacity-90" data-en="Open in Google Maps" href="https://www.google.com/maps/search/?api=1&amp;query=Danau+Satonda+Dompu" rel="noopener" target="_blank">Buka di Google Maps</a>
+</div>
+</article>
+
+<article class="scroll-mt-24 rounded-2xl bg-white border border-lautmuda overflow-hidden shadow-sm hover:shadow-lg transition flex flex-col" data-region="ksb" data-unggulan="" id="pulau-kenawa">
+<figure class="relative">
+<img alt="Foto Pulau Kenawa" class="h-56 w-full object-cover bg-lautmuda" height="560" loading="lazy" onerror="this.style.visibility='hidden'" src="https://commons.wikimedia.org/wiki/Special:FilePath/Pulau_kenawa_sumbawa.jpg?width=800" width="800"/>
+<div class="absolute inset-0 bg-gradient-to-t from-tinta/85 via-tinta/10 to-transparent pointer-events-none"></div>
+<span class="absolute top-3 left-3 rounded-full bg-emas text-tinta text-xs font-semibold px-3 py-1" data-en="West Sumbawa">Sumbawa Barat</span>
+<h3 class="absolute bottom-3 left-4 right-4 font-serif text-2xl text-white">Pulau Kenawa</h3>
+</figure>
+<p class="px-5 pt-3 text-[11px] text-tinta/70"><span data-en="Photo:">Foto:</span> Papudaengoyang / <a class="underline" href="https://commons.wikimedia.org/wiki/File:Pulau_kenawa_sumbawa.jpg" rel="noopener" target="_blank">Wikimedia Commons</a> / <span data-en="CC BY-SA 4.0"><a class="underline" href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noopener" target="_blank">CC BY-SA 4.0</a></span></p>
+<div class="p-5 flex flex-col grow">
+<p class="text-xs font-semibold text-tanah">Poto Tano, Kab. Sumbawa Barat</p>
+<p class="mt-2 text-sm leading-relaxed" data-en="An island of grassland and small hills with sea views, part of the Gili Balu island group.">Pulau berpadang rumput dan bukit kecil dengan panorama laut, bagian dari gugusan Gili Balu.</p>
+
+
+<div class="grow"></div>
+<a class="mt-5 rounded-full bg-laut text-white text-sm font-semibold text-center px-5 py-2.5 hover:opacity-90" data-en="Open in Google Maps" href="https://www.google.com/maps/search/?api=1&amp;query=Pulau+Kenawa+Poto+Tano" rel="noopener" target="_blank">Buka di Google Maps</a>
+</div>
+</article>
+<!--/SALINAN-WISATA-->
+    </div>
+
+    <!-- SLOT AFILIASI (hotel/tiket). Hapus "hidden" setelah punya link afiliasi, isi href. -->
+    <div class="hidden mt-8 rounded-xl border border-emas/60 bg-white p-4 text-sm flex-wrap items-center justify-between gap-3" data-slot="afiliasi">
+      <span><span class="text-xs text-tinta/70" data-en="Affiliate">Afiliasi</span> <span data-en="Find hotels and tickets for your trip">Cari hotel dan tiket untuk perjalanan Anda</span></span>
+      <a href="#" rel="sponsored noopener" target="_blank" class="rounded-full bg-emas px-4 py-2 font-semibold" data-en="See offers">Lihat penawaran</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== UMKM ===================== -->
+<!-- Kartu di bagian ini DIAMBIL OTOMATIS dari umkm.html (kartu dengan kata data-beranda atau data-mitra).
+     Jadi tidak perlu diedit di sini. Lihat petunjuk di umkm.html. -->
+<section class="max-w-6xl mx-auto px-4 py-14" aria-labelledby="umkm">
+  <div class="flex items-end justify-between gap-4">
+    <h2 id="umkm" class="font-serif text-3xl text-laut" data-en="Support Local Businesses &amp; Souvenirs">Dukung UMKM &amp; Oleh-Oleh Lokal</h2>
+    <a href="umkm.html" class="shrink-0 inline-flex items-center gap-1 text-sm font-semibold text-tanah hover:underline"><span data-en="See more">Selengkapnya</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  </div>
+  <div id="wadah-umkm" class="mt-8 grid gap-6 md:grid-cols-3">
+    <!--SALINAN-UMKM--><!-- Salinan otomatis supaya gambar selalu tampil. Saat situs tayang, bagian ini DIGANTI oleh JavaScript dengan kartu terbaru dari halaman sumber. -->
+<article class="scroll-mt-24 rounded-2xl bg-white border border-lautmuda overflow-hidden shadow-sm hover:shadow-lg transition flex flex-col" data-beranda="" data-cat="kerajinan" id="tenun-dina-galeri-yuyun">
+<figure class="relative">
+<div aria-label="Foto produk segera hadir" class="relative h-48 w-full bg-gradient-to-br from-tanah to-emas flex items-center justify-center text-white/70" role="img"><svg aria-hidden="true" fill="none" height="72" stroke="currentColor" stroke-linecap="round" stroke-width="3" viewbox="0 0 64 64" width="72"><path d="M8 20h48M8 32h48M8 44h48M20 8v48M32 8v48M44 8v48"></path></svg><div aria-hidden="true" class="tenun absolute bottom-0 inset-x-0"></div></div>
+<span class="absolute top-3 left-3 rounded-full bg-emas text-tinta text-xs font-semibold px-3 py-1" data-en="Weaving &amp; Crafts">Tenun &amp; Kerajinan</span>
+</figure>
+<div class="p-5 flex flex-col grow">
+<h3 class="font-serif text-xl">Tenun Dina / Galeri Yuyun</h3>
+<p class="mt-1 text-xs font-semibold text-tanah"><span data-en="Bima City">Kota Bima</span> · Ntobo, Kel. Ntobo, Kec. Raba, Kota Bima</p>
+<p class="mt-3 text-sm leading-relaxed" data-en="Bima woven cloth, sarongs, shawls, and woven fabric wallets.">Kain tenun khas Bima, sarung, selendang, dan dompet kain tenun.</p>
+
+<div class="grow"></div><a class="mt-5 rounded-full bg-laut text-white text-sm font-semibold text-center px-5 py-2.5 hover:opacity-90" href="https://wa.me/6285205037703?text=Halo%2C%20saya%20melihat%20Tenun%20Dina%20/%20Galeri%20Yuyun%20di%20Bima%20Sumbawa%20dan%20ingin%20bertanya." rel="noopener" target="_blank">WhatsApp 0852-0503-7703</a>
+</div>
+</article>
+
+<article class="scroll-mt-24 rounded-2xl bg-white border border-lautmuda overflow-hidden shadow-sm hover:shadow-lg transition flex flex-col" data-beranda="" data-cat="makanan" id="metrokosta-kopi-batu-lanteh">
+<figure class="relative">
+<div aria-label="Foto produk segera hadir" class="relative h-48 w-full bg-gradient-to-br from-laut to-emas flex items-center justify-center text-white/70" role="img"><svg aria-hidden="true" fill="none" height="72" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewbox="0 0 64 64" width="72"><path d="M12 24h34v12a14 14 0 0 1-14 14h-6a14 14 0 0 1-14-14V24zM46 28h5a6 6 0 0 1 0 12h-5M20 8c0 4 4 4 4 9M32 8c0 4 4 4 4 9"></path></svg><div aria-hidden="true" class="tenun absolute bottom-0 inset-x-0"></div></div>
+<span class="absolute top-3 left-3 rounded-full bg-emas text-tinta text-xs font-semibold px-3 py-1" data-en="Food &amp; Drink">Makanan &amp; Minuman</span>
+</figure>
+<div class="p-5 flex flex-col grow">
+<h3 class="font-serif text-xl">Metrokosta – Kopi Batu Lanteh</h3>
+<p class="mt-1 text-xs font-semibold text-tanah"><span data-en="Sumbawa Regency">Kabupaten Sumbawa</span> · Jl. Sultan Kaharuddin No. 5, Brang Bara, Kec. Sumbawa</p>
+<p class="mt-3 text-sm leading-relaxed" data-en="Sumbawa Arabica and Robusta coffee: beans, roasted coffee, and ground coffee.">Kopi Arabika dan Robusta Sumbawa: biji kopi, kopi sangrai, dan kopi bubuk.</p>
+
+<div class="grow"></div><a class="mt-5 rounded-full bg-laut text-white text-sm font-semibold text-center px-5 py-2.5 hover:opacity-90" href="https://wa.me/6285394238586?text=Halo%2C%20saya%20melihat%20Metrokosta%20%E2%80%93%20Kopi%20Batu%20Lanteh%20di%20Bima%20Sumbawa%20dan%20ingin%20bertanya." rel="noopener" target="_blank">WhatsApp 0853-9423-8586</a>
+</div>
+</article>
+
+<article class="scroll-mt-24 rounded-2xl bg-white border border-lautmuda overflow-hidden shadow-sm hover:shadow-lg transition flex flex-col" data-beranda="" data-cat="makanan" id="home-industri-madiun-songgajah">
+<figure class="relative">
+<div aria-label="Foto produk segera hadir" class="relative h-48 w-full bg-gradient-to-br from-laut to-emas flex items-center justify-center text-white/70" role="img"><svg aria-hidden="true" fill="none" height="72" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewbox="0 0 64 64" width="72"><path d="M12 24h34v12a14 14 0 0 1-14 14h-6a14 14 0 0 1-14-14V24zM46 28h5a6 6 0 0 1 0 12h-5M20 8c0 4 4 4 4 9M32 8c0 4 4 4 4 9"></path></svg><div aria-hidden="true" class="tenun absolute bottom-0 inset-x-0"></div></div>
+<span class="absolute top-3 left-3 rounded-full bg-emas text-tinta text-xs font-semibold px-3 py-1" data-en="Food &amp; Drink">Makanan &amp; Minuman</span>
+</figure>
+<div class="p-5 flex flex-col grow">
+<h3 class="font-serif text-xl">Home Industri “MADIUN” – Songgajah</h3>
+<p class="mt-1 text-xs font-semibold text-tanah"><span data-en="Dompu Regency">Kabupaten Dompu</span> · Jl. Lintas Calabai, Desa So Nggaja, Kec. Kempo</p>
+<p class="mt-3 text-sm leading-relaxed" data-en="Cashew and corn snacks; cashews come in a range of flavors.">Olahan kacang mete dan jagung; kacang mete tersedia dalam berbagai rasa.</p>
+
+<div class="grow"></div><a class="mt-5 rounded-full bg-laut text-white text-sm font-semibold text-center px-5 py-2.5 hover:opacity-90" href="https://wa.me/6282339476729?text=Halo%2C%20saya%20melihat%20Home%20Industri%20%E2%80%9CMADIUN%E2%80%9D%20%E2%80%93%20Songgajah%20di%20Bima%20Sumbawa%20dan%20ingin%20bertanya." rel="noopener" target="_blank">WhatsApp 0823-3947-6729</a>
+</div>
+</article>
+<!--/SALINAN-UMKM-->
+  </div>
+  <a href="transportasi.html#rental" class="mt-8 flex items-center justify-between gap-4 rounded-xl border border-lautmuda bg-lautmuda/40 p-4 hover:bg-lautmuda/70">
+    <span class="text-sm"><strong data-en="Need a car in Bima or Sumbawa?">Butuh mobil di Bima atau Sumbawa?</strong> <span data-en="See car rental options and reference prices.">Lihat pilihan rental mobil dan tarif referensinya.</span></span>
+    <span class="shrink-0 inline-flex items-center gap-1 text-sm font-semibold text-tanah hover:underline"><span data-en="See more">Selengkapnya</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+  </a>
+</section>
+
+<!-- ===================== AJAKAN PELAKU USAHA ===================== -->
+<section class="max-w-6xl mx-auto px-4 pb-14">
+  <div class="rounded-2xl bg-laut text-white p-8 md:p-12 md:flex items-center justify-between gap-8">
+    <div class="max-w-xl">
+      <h2 class="font-serif text-2xl md:text-3xl font-bold" data-en="Run a local business? List it for free.">Punya usaha lokal? Daftarkan gratis.</h2>
+      <p class="mt-3 text-white/90" data-en="Tour guides, weavers, food makers, transport and lodging in Bima and Sumbawa are welcome. Reach more visitors at no cost.">Pemandu wisata, pengrajin, produsen makanan, transportasi, dan penginapan di Bima dan Sumbawa kami sambut. Jangkau lebih banyak pengunjung tanpa biaya.</p>
+    </div>
+    <a href="kontak.html" class="mt-6 md:mt-0 inline-block rounded-full bg-emas text-tinta font-semibold px-6 py-3 hover:opacity-90" data-en="Register my business">Daftarkan usaha saya</a>
+  </div>
+</section>
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="bg-tinta text-white/80">
+  <div class="max-w-6xl mx-auto px-4 py-10 grid gap-6 md:grid-cols-3 text-sm">
+    <div>
+      <p class="font-serif text-lg text-white">Bima Sumbawa</p>
+      <p class="mt-2" data-en="A local guide to Bima City and Sumbawa Island, West Nusa Tenggara.">Panduan lokal Kota Bima dan Pulau Sumbawa, Nusa Tenggara Barat.</p>
+    </div>
+    <ul class="space-y-1">
+      <li><a href="wisata.html" data-en="Attractions">Wisata</a></li>
+      <li><a href="transportasi.html" data-en="Transport">Transportasi</a></li>
+      <li><a href="umkm.html" data-en="Souvenirs &amp; Local Business">Oleh-Oleh &amp; UMKM</a></li>
+      <li><a href="kontak.html" data-en="List Your Business">Daftarkan Usaha</a></li>
+      <li><a href="tentang.html" data-en="About Us">Tentang Kami</a></li>
+      <li><a href="privasi.html" data-en="Privacy Policy">Kebijakan Privasi</a></li>
+      <li><a href="tentang.html#penafian" data-en="Disclaimer">Penafian</a></li>
+    </ul>
+    <div>
+      <p><span data-en="Contact:">Kontak:</span> <a href="mailto:halo@bimasumbawa.com">halo@bimasumbawa.com</a></p>
+      <p class="mt-1">WhatsApp: <a href="#" data-wa="Halo Bima Sumbawa" target="_blank" rel="noopener">+62 898-0280-009</a></p>
+    </div>
+  </div>
+  <p class="max-w-6xl mx-auto px-4 pb-6 text-xs text-white/70"><span data-en="Bima Sumbawa only provides information. Any transaction with a business or service provider happens directly between you and them, and is outside the site operator’s responsibility.">Bima Sumbawa hanya menyediakan informasi. Transaksi apa pun dengan pelaku usaha atau penyedia layanan terjadi langsung antara Anda dan mereka, dan berada di luar tanggung jawab pengelola situs.</span> <a class="underline" href="tentang.html#penafian" data-en="Read the full disclaimer">Baca penafian lengkap</a>.</p>
+  <p class="border-t border-white/10 py-4 text-center text-xs">&copy; <span id="tahun">2026</span> Bima Sumbawa. <span data-en="All rights reserved.">Hak cipta dilindungi.</span></p>
+</footer>
+
+<script src="assets/js/bahasa.js"></script>
+<script src="assets/js/pencarian.js" defer></script>
+<script>
+/* ===== BERANDA: kartu pilihan diambil otomatis dari halaman lain =====
+   - Destinasi: kartu di wisata.html yang diberi kata data-unggulan
+   - UMKM: kartu di umkm.html yang diberi kata data-beranda atau data-mitra (mitra tampil lebih dulu)
+   Jumlah maksimum bisa diubah di bawah ini. */
+const MAKS_WISATA = 4, MAKS_UMKM = 3;
+const ambil = u => (window.__HALAMAN && window.__HALAMAN[u]) ? Promise.resolve(window.__HALAMAN[u])
+  : Promise.resolve().then(() => fetch(u)).then(r => { if (!r.ok) throw new Error(u); return r.text(); });
+function isiKartu(idWadah, url, selektor, maks, buang, urut) {
+  const wadah = document.getElementById(idWadah);
+  return ambil(url).then(html => {
+    const doc = new DOMParser().parseFromString(html, "text/html");
+    let kartu = [...doc.querySelectorAll(selektor)];
+    if (urut) kartu.sort(urut);
+    kartu = kartu.slice(0, maks);
+    if (!kartu.length) return;
+    wadah.innerHTML = "";
+    kartu.forEach(k => {
+      const n = document.importNode(k, true);
+      n.querySelectorAll(buang).forEach(x => x.remove());
+      n.querySelectorAll("h2").forEach(h => { const h3 = document.createElement("h3"); h3.className = h.className; h3.innerHTML = h.innerHTML; h.replaceWith(h3); });
+      wadah.appendChild(n);
+    });
+  }).catch(() => {});
+}
+const mitraDulu = (a, b) => b.hasAttribute("data-mitra") - a.hasAttribute("data-mitra");
+Promise.all([
+  isiKartu("wadah-wisata", "wisata.html", "article[data-unggulan]", MAKS_WISATA, ".tips,.sumber"),
+  isiKartu("wadah-umkm", "umkm.html", "article[data-beranda],article[data-mitra]", MAKS_UMKM, ".sumber,.catatan", mitraDulu)
+]).then(() => perbaruiHalaman());
+</script>
+</body>
+</html>
